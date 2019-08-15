@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  min-width: 250px;
+  padding: 30px;
+}
+
+.fizz-buzz-item {
+  background-color: orange;
+  border: 2px solid black;
+  height: 30px;
+  width: 60px;
+}
+
+.fizz-buzz-item buzz{
+  background-color: orange;
+  border: 2px solid black;
+  height: 25px;
+  width: 50px;
+}
+.fizz-buzz-item fizz{
+  background-color: orange;
+  border: 2px solid black;
+  height: 25px;
+  width: 50px;
+}
+
+.hero {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.hero img {
+  height: 100%
+}
+
+
+.thumbnail {
+  display: inline-block;
+  cursor: pointer;
+  height: 60px;
+}
+
+a.thumbnail:hover {
+  box-shadow: 5px 5px 5px gray;
+}
+
+.thumbnail img {
+  max-height: 100%;
+}
